@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Basic Plan",
+    "features": {
+      "access_to_full_catalog": "No",
+      "high_quality_audio": "Standard Audio Quality",
+      "offline_access": "Up to 10 audiobooks",
+      "unlimited_offline_access": "No",
+      "exclusive_content": "No"
+    }
+  },
+  {
+    "name": "Premium Plan",
+    "features": {
+      "access_to_full_catalog": "Yes",
+      "high_quality_audio": "HD Sound",
+      "offline_access": "Unlimited",
+      "unlimited_offline_access": "Yes",
+      "exclusive_content": "Yes"
+    }
+  },
+  {
+    "name": "Pro Plan",
+    "features": {
+      "access_to_full_catalog": "Yes",
+      "high_quality_audio": "HD Sound",
+      "offline_access": "Unlimited",
+      "unlimited_offline_access": "Yes",
+      "exclusive_content": "Yes"
+    }
+  },
+  {
+    "name": "Family Plan",
+    "features": {
+      "access_to_full_catalog": "Yes",
+      "high_quality_audio": "HD Sound",
+      "offline_access": "Unlimited",
+      "unlimited_offline_access": "Yes",
+      "exclusive_content": "Yes"
+    }
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "Today": [
+    {
+      "title": "The New Yorker Fiction Podcast episode 1",
+      "host": "Deborah Treisman",
+      "imageUrl": "https://example.com/image1.png",
+      "date": "2024-11-28"
+    },
+    {
+      "title": "The New Yorker Fiction Podcast episode 1",
+      "host": "Deborah Treisman",
+      "imageUrl": "https://example.com/image2.png",
+      "date": "2024-11-28"
+    },
+    {
+      "title": "The New Yorker Fiction Podcast episode 1",
+      "host": "Deborah Treisman",
+      "imageUrl": "https://example.com/image3.png",
+      "date": "2024-11-28"
+    }
+  ],
+  "Yesterday": [
+    {
+      "title": "The New Yorker Fiction Podcast episode 1",
+      "host": "Deborah Treisman",
+      "imageUrl": "https://example.com/image4.png",
+      "date": "2024-11-27"
+    },
+    {
+      "title": "The New Yorker Fiction Podcast episode 1",
+      "host": "Deborah Treisman",
+      "imageUrl": "https://example.com/image5.png",
+      "date": "2024-11-27"
+    },
+    {
+      "title": "The New Yorker Fiction Podcast episode 1",
+      "host": "Deborah Treisman",
+      "imageUrl": "https://example.com/image6.png",
+      "date": "2024-11-27"
+    }
+  ]
+}

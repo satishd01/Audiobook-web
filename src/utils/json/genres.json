@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "1",
+    "imageUrl": "https://placehold.co/400?text=Comedy",
+    "genre": "Comedy"
+  },
+  {
+    "_id": "2",
+    "imageUrl": "https://placehold.co/400?text=Education",
+    "genre": "Education"
+  },
+  {
+    "_id": "3",
+    "imageUrl": "https://placehold.co/400?text=News",
+    "genre": "News"
+  },
+  {
+    "_id": "4",
+    "imageUrl": "https://placehold.co/400?text=Technology",
+    "genre": "Technology"
+  },
+  {
+    "_id": "5",
+    "imageUrl": "https://placehold.co/400?text=Health",
+    "genre": "Health"
+  },
+  {
+    "_id": "6",
+    "imageUrl": "https://placehold.co/400?text=Music",
+    "genre": "Music"
+  },
+  {
+    "_id": "7",
+    "imageUrl": "https://placehold.co/400?text=Business",
+    "genre": "Business"
+  },
+  {
+    "_id": "8",
+    "imageUrl": "https://placehold.co/400?text=Sports",
+    "genre": "Sports"
+  },
+  {
+    "_id": "9",
+    "imageUrl": "https://placehold.co/400?text=Science",
+    "genre": "Science"
+  },
+  {
+    "_id": "10",
+    "imageUrl": "https://placehold.co/400?text=History",
+    "genre": "History"
+  }
+]

@@ -1,0 +1,7 @@
+.download-button, .share-button {
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .download-button:hover, .share-button:hover {
+    cursor: pointer; /* Change cursor to pointer when hovering */
+  }

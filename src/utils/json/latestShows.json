@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "creatorName": "Creator One",
+    "genre": "Technology",
+    "imageUrl": "https://placehold.co/200"
+  },
+  {
+    "id": 2,
+    "creatorName": "Team Creators",
+    "genre": "Comedy",
+    "imageUrl": "https://placehold.co/200"
+  },
+  {
+    "id": 3,
+    "creatorName": "Creator Three",
+    "genre": "Motivation",
+    "imageUrl": "https://placehold.co/200"
+  },
+  {
+    "id": 4,
+    "creatorName": "Collaborative Creators",
+    "genre": "Storytelling",
+    "imageUrl": "https://placehold.co/200"
+  },
+  {
+    "id": 5,
+    "creatorName": "Creator Five",
+    "genre": "Lifestyle",
+    "imageUrl": "https://placehold.co/200"
+  },
+  {
+    "id": 6,
+    "creatorName": "Podcast Duo",
+    "genre": "Comedy",
+    "imageUrl": "https://placehold.co/200"
+  },
+  {
+    "id": 7,
+    "creatorName": "Creator Seven",
+    "genre": "Self-Help",
+    "imageUrl": "https://placehold.co/200"
+  },
+  {
+    "id": 8,
+    "creatorName": "The Storytellers",
+    "genre": "Fiction",
+    "imageUrl": "https://placehold.co/200"
+  }
+]

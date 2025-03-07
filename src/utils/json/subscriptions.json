@@ -1,0 +1,96 @@
+{
+  "subscriptions": {
+    "monthly": [
+      {
+        "name": "Basic Plan",
+        "features": {
+          "audioBookCatalog": true,
+          "highQualityAudioHD": false,
+          "unlimitedOfflineAccess": "Up to 10",
+          "accessToDevices": "Up to 3 devices"
+        },
+        "price": 99,
+        "currency": "₹"
+      },
+      {
+        "name": "Premium Plan",
+        "features": {
+          "audioBookCatalog": true,
+          "highQualityAudioHD": true,
+          "unlimitedOfflineAccess": true,
+          "accessToDevices": "Up to 3 devices"
+        },
+        "price": 299,
+        "currency": "₹"
+      },
+      {
+        "name": "Pro Plan",
+        "features": {
+          "audioBookCatalog": true,
+          "highQualityAudioHD": true,
+          "unlimitedOfflineAccess": true,
+          "accessToDevices": "Up to 3 devices"
+        },
+        "price": 499,
+        "currency": "₹"
+      },
+      {
+        "name": "Family Plan",
+        "features": {
+          "audioBookCatalog": false,
+          "sharedBilling": true,
+          "individualPreferences": true,
+          "accounts": "Up to 5 accounts"
+        },
+        "price": 399,
+        "currency": "₹"
+      }
+    ],
+    "yearly": [
+      {
+        "name": "Basic Plan",
+        "features": {
+          "audioBookCatalog": true,
+          "highQualityAudioHD": false,
+          "unlimitedOfflineAccess": "Up to 10",
+          "accessToDevices": "Up to 3 devices"
+        },
+        "price": 990,
+        "currency": "₹"
+      },
+      {
+        "name": "Premium Plan",
+        "features": {
+          "audioBookCatalog": true,
+          "highQualityAudioHD": true,
+          "unlimitedOfflineAccess": true,
+          "accessToDevices": "Up to 3 devices"
+        },
+        "price": 2990,
+        "currency": "₹"
+      },
+      {
+        "name": "Pro Plan",
+        "features": {
+          "audioBookCatalog": true,
+          "highQualityAudioHD": true,
+          "unlimitedOfflineAccess": true,
+          "accessToDevices": "Up to 3 devices"
+        },
+        "price": 4990,
+        "currency": "₹"
+      },
+      {
+        "name": "Family Plan",
+        "features": {
+          "audioBookCatalog": false,
+          "sharedBilling": true,
+          "individualPreferences": true,
+          "accounts": "Up to 5 accounts"
+        },
+        "price": 3990,
+        "currency": "₹"
+      }
+    ]
+  }
+}
