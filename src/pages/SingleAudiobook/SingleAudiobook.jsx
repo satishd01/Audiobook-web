@@ -15,7 +15,7 @@ import {
   scrollToTop,
   userSliderHandler,
 } from "../../utils/constants";
-import { fetchAudiobooks } from "../../apis/FetchAudiobooks";
+import { fetchAudiobooks } from "../../apis/fetchaudiobooks";
 
 const SingleAudiobook = () => {
   const [audiobook, setAudiobook] = useState(null);
