@@ -7,8 +7,8 @@ import Navbar from "../../components/Navbar/Navbar";
 import LatestShows from "../../components/Podcasts/LatestShows/LatestShows";
 import TopCreators from "../../components/Podcasts/TopCreators/TopCreators";
 import AudiobookData from "../../components/singleaudiobook/audiobookdata/Audiobookdata";
-import AudiobookImage from "../../components/SingleAudiobook/audiobookdata/Audiobookimgae/Audiobookimage";
-import AudiobookInfo from "../../components/SingleAudiobook/audiobookdata/Audiobookinfo/Audiobookinfo";
+import AudiobookImage from "../../components/singleaudiobook/audiobookdata/Audiobookimgae/Audiobookimage";
+import AudiobookInfo from "../../components/singleaudiobook/audiobookdata/Audiobookinfo/Audiobookinfo";
 import SliderDiv from "../../components/SliderDiv/SliderDiv";
 import {
   resizeHandler,
