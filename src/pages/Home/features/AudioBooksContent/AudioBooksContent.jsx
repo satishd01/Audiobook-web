@@ -59,12 +59,12 @@ const AudioBooksContent = () => {
             page="audiobook"
             contentType="audiobook"
           />
-          <AudiobookList
+          {/* <AudiobookList
             text={"Audiobooks"}
             data={latestAudiobooks}
             page="audiobook"
             contentType="audiobook"
-          />
+          /> */}
           <Footer />
         </div>
       </div>
