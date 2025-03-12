@@ -15,9 +15,11 @@ import {
   userSliderHandler,
 } from "../../../../utils/constants";
 import AudiobookList from "../../../../components/Podcasts/Audiobooklist/Audiobooklist";
+import {fetchAudiobooks} from "../../../../apis/fetchaudiobooks";
 
 const AudioBooksContent = () => {
   const [latestAudiobooks, setLatestAudiobooks] = useState([]);
+  const [audiobooks, setaudiobooks] = useState([]);
   const [topAudiobookCreators, setTopAudiobookCreators] = useState([]);
 
   const isUserViewOpen = useSelector((state) => state.slider.isSliderOpen);
@@ -27,6 +29,7 @@ const AudioBooksContent = () => {
     scrollToTop();
     FetchTopAudiobookCreators(setTopAudiobookCreators);
     fetchLatestAudiobooks(setLatestAudiobooks);
+    fetchAudiobooks(setaudiobooks);
   }, []);
 
   useEffect(() => {
@@ -59,12 +62,7 @@ const AudioBooksContent = () => {
             page="audiobook"
             contentType="audiobook"
           />
-          {/* <AudiobookList
-            text={"Audiobooks"}
-            data={latestAudiobooks}
-            page="audiobook"
-            contentType="audiobook"
-          /> */}
+           <AudiobookList text={"Audiobooks"} data={audiobooks} page="audiobook" />
           <Footer />
         </div>
       </div>

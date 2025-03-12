@@ -43,6 +43,7 @@ const Login = () => {
         toast.success("Login successful!");
         // Save the token in local storage
         localStorage.setItem('token', data.token);
+        localStorage.setItem("userId", JSON.stringify(data.id));
         navigate("/profile"); // Navigate to the profile or another appropriate route
       } else {
         toast.error(data.message || "Failed to login");

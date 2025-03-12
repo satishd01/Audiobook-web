@@ -20,7 +20,7 @@ const AudiobookData = ({ audiobook }) => {
       </div>
 
       <div className="my-5">
-        <p className="text-xl mb-4">Audiobook Episodes</p>
+        {/* <p className="text-xl mb-4">Audiobook Episodes</p> */}
         {episodes?.length > 0 ? (
           episodes.slice(0, 4).map((episode) => (
             <div key={episode.id || episode.episode_id}>

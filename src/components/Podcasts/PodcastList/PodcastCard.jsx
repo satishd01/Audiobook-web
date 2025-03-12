@@ -10,7 +10,7 @@ const PodcastCard = ({ podcast }) => {
     <div
       className="flex items-center md:gap-3   gap-2 shadow-lg hover:shadow-xl transform hover:scale-95 transition duration-300 ease-in-out  rounded-lg"
       onClick={() =>
-        navigate(`/podcast/${podcast.podcast_id}`, { state: { podcast } })
+        navigate(`/podcast/${podcast.id}`, { state: { podcast } })
       }>
       <div className="flex items-center md:gap-3 gap-2 cursor-pointer">
         <img
@@ -22,12 +22,12 @@ const PodcastCard = ({ podcast }) => {
           <p className="font-semibold text-whitw truncate">
             {podcast.show_title}
           </p>
-          <p className="text-white">{`Season ${podcast.season}`}</p>
+          {/* <p className="text-white">{`Season ${podcast.season}`}</p> */}
           <div className="flex items-center gap-3 text-whitw">
-            <GoClockFill className="text-whitw" />
-            <p className="text-xs whitespace-nowrap">
+            {/* <GoClockFill className="text-whitw" /> */}
+            {/* <p className="text-xs whitespace-nowrap">
               {`${podcast.time} Minutes of listening`}
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
