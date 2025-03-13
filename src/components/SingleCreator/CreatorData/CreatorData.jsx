@@ -1,35 +1,30 @@
-import React, { useEffect, useState } from "react";
-import SuggestionCard from "../../Search/Suggestions/SuggestionCard";
+import React from "react";
 import { useNavigate } from "react-router-dom";
-import { fetchPodcastsByCreatorId } from "./../../../apis/fetchPodcastsByCreatorId";
+import SuggestionCard from "../../Search/Suggestions/SuggestionCard";
 
-const CreatorData = ({ creator }) => {
-  const [podcasts, setPodcasts] = useState([]);
+const CreatorData = ({ creator, type, data }) => {
   const navigate = useNavigate();
-
-  useEffect(() => {
-    fetchPodcastsByCreatorId(creator?.id, setPodcasts);
-  }, [creator?.id]);
 
   return (
     <div className="w-full">
       <div className="my-5">
-        <p className="text-xl mb-4">Podcast</p>
-        {podcasts?.length > 0 ? (
-          podcasts.slice(0, 4).map((pod) => (
+        <p className="text-xl mb-4">{type}s</p>
+        {data?.length > 0 ? (
+          data.slice(0, 4).map((item) => (
             <div
-              key={pod.podcast_id}
+              key={item.id} // Use the correct dynamic ID
               onClick={() =>
-                navigate(`/podcast/${pod.podcast_id}`, {
-                  state: { podcast: pod },
+                navigate(`/${type}/${item.id}`, {
+                  state: { [type]: item }, // Pass the item (e.g., podcast or audiobook) as state
                 })
               }
-              className="cursor-pointer">
-              <SuggestionCard data={pod} page="podcast" />
+              className="cursor-pointer"
+            >
+              <SuggestionCard data={item} type={type} />
             </div>
           ))
         ) : (
-          <p>No podcasts found</p>
+          <p>No {type}s found</p>
         )}
       </div>
     </div>

@@ -25,7 +25,7 @@ const StoryData = ({ story }) => {
         {episodes?.length > 0 ? (
           episodes.slice(0, 4).map((episode) => (
             <div key={episode.id || episode.episode_id}>
-              <SuggestionCard data={episode} />
+              <SuggestionCard data={episode} type="story" />
             </div>
           ))
         ) : (

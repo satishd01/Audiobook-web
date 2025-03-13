@@ -7,7 +7,7 @@ import { setActivePlayer } from "../../../app/slices/activePlayerSlice";
 import { downloadApi } from "../../../apis/downloadApi";
 import "./SuggestionCard.css"; // Import your CSS file if it's in a separate file
 
-const SuggestionCard = ({ data }) => {
+const SuggestionCard = ({ data, type }) => {
   const dispatch = useDispatch();
 
   function convertSecondsToMinutes(seconds) {
@@ -22,7 +22,7 @@ const SuggestionCard = ({ data }) => {
 
   const handleDownload = async () => {
     try {
-      const blob = await downloadApi('audiobook', data.audiobook_id, data.id);
+      const blob = await downloadApi(type, data.audiobook_id || data.podcast_id || data.story_id, data.id);
       const url = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
@@ -37,7 +37,7 @@ const SuggestionCard = ({ data }) => {
   };
 
   const handleShare = () => {
-    const shareUrl = `https://your-app.com/audiobook/${data.audiobook_id}/episode/${data.id}`;
+    const shareUrl = `https://your-app.com/${type}/${data.audiobook_id || data.podcast_id || data.story_id}/episode/${data.id}`;
     const shareData = {
      title: data.title,
      text: `Listen to this episode: ${data.title}`,

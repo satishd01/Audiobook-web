@@ -7,6 +7,7 @@ import { IoPlaySharp } from "react-icons/io5";
 import { IoIosStar } from "react-icons/io";
 
 const CreatorInfo = ({ creator }) => {
+  console.log(creator,"creator")
   return (
     <>
       <p className="text-xl md:text-3xl font-semibold">
@@ -15,8 +16,8 @@ const CreatorInfo = ({ creator }) => {
       <p className="text-xl md:text-xl  font-light">{creator?.showTitle}</p>
       <div className="text-sm md:text-sm font-light mt-5 px-2 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <p className="text-sm bg-gray-100 inline-block text-black px-1 font-medium">{` ${creator?.ageRestriction} +`}</p>
-          <IoPlaySharp className="text-white text-xl" />
+          {/* <p className="text-sm bg-gray-100 inline-block text-black px-1 font-medium">{` ${creator?.ageRestriction} +`}</p> */}
+          {/* <IoPlaySharp className="text-white text-xl" /> */}
           <p>{`${creator?.listens} Listens`}</p>
         </div>
         <div className="flex gap-1 items-center">
@@ -27,8 +28,8 @@ const CreatorInfo = ({ creator }) => {
         </div>
       </div>
       <div className="text-sm md:text-[15px] font-light mt-2 px-2 flex items-center justify-between">
-        <p>Full Podcast: {creator?.genre}</p>
-        <p>{creator?.duration}</p>
+        <p>Genere: {creator?.genre_name}</p>
+        <p>{creator?.totalDuration}</p>
       </div>
 
       <p className="text-sm md:text-sm mt-4 md:mt-8 font-light text-[#D9D9D9CC]">

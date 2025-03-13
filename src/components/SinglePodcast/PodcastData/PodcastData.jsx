@@ -23,8 +23,8 @@ const PodcastData = ({ podcast }) => {
         <p className="text-xl mb-4">Podcast</p>
         {episodes?.length > 0 ? (
           episodes.slice(0, 4).map((pod) => (
-            <div key={pod.id || pod.podcast_id}>
-              <SuggestionCard data={pod} />
+            <div key={pod.id || pod.id}>
+              <SuggestionCard data={pod} type="podcast"  />
             </div>
           ))
         ) : (

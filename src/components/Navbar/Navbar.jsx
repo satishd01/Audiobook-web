@@ -43,9 +43,9 @@ const Navbar = () => {
   }, [isMenuOpen]);
 
   return (
-    <nav className="grid grid-cols-12 text-white select-none">
+    <nav className="grid grid-cols-12 text-white select-none bg-black">
       <div className="md:col-span-2 col-span-3 md:bg-[#131] bg-[#100E0E] flex px-8 py-3 text-2xl items-center cursor-pointer">
-        <img src="/logo.jpg" alt="Logo" className="h-8 mr-2 cursor-pointer" />
+        <img src="/logo.jpg" alt="Logo" className="h-8 mr-2 cursor-pointer " />
         <p onClick={handleIsUserViewOpen} className="font-semibold inline">
           Audiobook
         </p>
