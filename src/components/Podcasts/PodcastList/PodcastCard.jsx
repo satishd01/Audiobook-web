@@ -31,9 +31,9 @@ const PodcastCard = ({ podcast }) => {
           </div>
         </div>
       </div>
-      <div className="ml-auto md:p-3 p-2 rounded-full flex items-center justify-center bg-white transition duration-200 cursor-pointer">
+      {/* <div className="ml-auto md:p-3 p-2 rounded-full flex items-center justify-center bg-white transition duration-200 cursor-pointer">
         <IoPlay className="text-[#FF0000] text-lg " />
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -20,7 +20,7 @@ const CreatorCard = ({ info, contentType }) => {
     <div
       className="relative shadow-lg hover:shadow-xl transform hover:scale-90 transition duration-300 ease-in-out cursor-pointer"
       onClick={handleCardClick}>
-      <FaHeart className="absolute right-3 top-3 text-[#FF0000]" />
+      {/* <FaHeart className="absolute right-3 top-3 text-[#FF0000]" /> */}
       <img
         alt={info.name || info.creator_name}
         src={info.image}
@@ -32,9 +32,9 @@ const CreatorCard = ({ info, contentType }) => {
             <p>{info.name || info.creator_name}</p>
             <p className="text-xs">{info.genre_name || info.genre}</p>
           </div>
-          <div className="md:p-3 p-2 rounded-full bg-white">
+          {/* <div className="md:p-3 p-2 rounded-full bg-white">
             <IoPlay className="text-[#FF0000]" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

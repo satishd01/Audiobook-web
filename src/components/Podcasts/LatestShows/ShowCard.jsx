@@ -16,7 +16,7 @@ const ShowCard = ({ show, page, contentType }) => {
     <div
       className="relative shadow-lg hover:shadow-xl transform hover:scale-90 transition duration-300 ease-in-out cursor-pointer"
       onClick={handleCardClick}>
-      <FaHeart className="absolute right-3 top-3 text-[#FF0000]" />
+      {/* <FaHeart className="absolute right-3 top-3 text-[#FF0000]" /> */}
       <img
         alt={show.name || show.creator_name}
         src={show.image}
@@ -28,9 +28,9 @@ const ShowCard = ({ show, page, contentType }) => {
             <p>{show.name}</p>
             <p className="text-xs">{show.genre_name || show.genre}</p>
           </div>
-          <div className="md:p-3 p-2 rounded-full bg-white">
+          {/* <div className="md:p-3 p-2 rounded-full bg-white">
             <IoPlay className="text-[#FF0000]" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

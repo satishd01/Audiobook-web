@@ -23,7 +23,7 @@ const DownloadedCard = ({ podcast }) => {
           </p>
           <div className="flex items-center gap-2">
             <GoClockFill className="text-white" />
-            <p className="text-xs"> {`${podcast.time} Minutes of listening`}</p>
+            <p className="text-xs"> {`${podcast.duration} Minutes of listening`}</p>
           </div>
         </div>
       </div>
@@ -32,7 +32,7 @@ const DownloadedCard = ({ podcast }) => {
 
         <div className="flex md:justify-between justify-end items-center md:gap-10 gap-5 md:mt-0 mt-3">
           <FaCircleCheck className="text-red-600 text-lg" />
-          <RiDeleteBin6Fill className="text-white text-lg" />
+          {/* <RiDeleteBin6Fill className="text-white text-lg" /> */}
           <div className="md:p-2 p-2 rounded-full flex items-center justify-center bg-white">
             <IoPlay className="text-[#FF0000]" />
           </div>
